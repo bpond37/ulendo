@@ -1,0 +1,25 @@
+.cache
+dist
+/node_modules
+npm-debug.log
+/*.env
+
+# API keys and secrets
+.env
+
+# Dependency directory
+node_modules
+bower_components
+
+# Editors
+.idea
+*.iml
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+uploads
+
+**/build/**
+**/public/**
