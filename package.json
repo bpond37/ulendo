@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "main": "index.tsx",
   "license": "MIT",
+  "private": true,
   "scripts": {
     "heroku-postbuild": "yarn workspace server build && yarn workspace client build",
     "start": "yarn workspace server start",
