@@ -1,7 +1,8 @@
 import { Model, HasManyGetAssociationsMixin, HasManyAddAssociationMixin, Association } from 'sequelize';
 import Memo from './Memo';
 import config from '../config'
-import * as bcrypt from 'bcrypt'
+// import * as bcrypt from 'bcrypt'
+const bcrypt = require('bcrypt')
 import * as jwt from 'jsonwebtoken'
 
 export default class User extends Model {

@@ -1,7 +1,5 @@
 FROM node:13.5
 
-FROM node:12
-
 # Copy source code
 COPY . /app
 
@@ -15,4 +13,4 @@ RUN yarn install
 EXPOSE 4000
 
 # Launch application
-CMD ["yarn","start"]
+CMD ["yarn","run","dev"]

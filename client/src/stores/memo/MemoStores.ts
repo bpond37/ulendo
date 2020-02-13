@@ -44,10 +44,10 @@ class MemoStore {
   @action
   async updateMemo() {
 
-    //wait 3 seconds before call async function 'update'
+    //wait 1 seconds before call async function 'update'
     const resultMatchTimer = setTimeout(()=>
       this.memoService.updateMemo(this.memo) 
-    , 3000);
+    , 1000);
 
     //cancel update right before
     console.log("resultMatchTimer", resultMatchTimer)
