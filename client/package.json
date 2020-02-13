@@ -1,6 +1,6 @@
 {
-  "name": "ts-note-app",
-  "version": "0.1.0",
+  "name": "client",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@types/axios": "^0.14.0",
@@ -42,7 +42,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "postbuild":"mv build ../server/app/"
+    "postbuild":"rm -rf ../server/app/build && mv build ../server/app/"
   },
   "eslintConfig": {
     "extends": "react-app"
